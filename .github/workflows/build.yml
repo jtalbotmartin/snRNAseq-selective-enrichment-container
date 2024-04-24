@@ -26,4 +26,4 @@ jobs:
             password: ${{ secrets.DOCKERHUB_TOKEN }}
     - 
         name: push service
-        run: jtalbotmartin/snrnaseq-selective-enrichment:latest
+        run: docker push jtalbotmartin/snrnaseq-selective-enrichment:latest
