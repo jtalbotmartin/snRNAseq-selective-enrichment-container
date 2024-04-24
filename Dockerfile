@@ -18,16 +18,12 @@ hdf5r \
 Seurat \
 SeuratObject \
 Matrix \
-AUCell \ 
-SingleCellExperiment \ 
-scater \
 dplyr \
 purrr \
 argparse \
 cli \
 matrixStats \
 doParallel \
-variancePartition \
 && rm -rf /tmp/downloaded_packages
 
 ## install R packages from bioconductor
