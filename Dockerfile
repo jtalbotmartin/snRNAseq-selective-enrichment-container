@@ -24,6 +24,7 @@ argparse \
 cli \
 matrixStats \
 doParallel \
+qs \
 && rm -rf /tmp/downloaded_packages
 
 ## install R packages from bioconductor
