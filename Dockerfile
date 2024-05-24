@@ -6,6 +6,8 @@ RUN apt-get update \
 apt-utils \
 libglpk-dev \
 libhdf5-dev \
+libcairo2-dev \
+libxt-dev \
 patch \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
@@ -13,6 +15,7 @@ patch \
 ## install R packages from CRAN 
 RUN install2.r -e \
 argparse \
+ggrastr \
 RCurl \
 hdf5r \
 Seurat \
